@@ -24,7 +24,11 @@
 
 ### 2.原理学习  
 虽然网上有不少安装教程，不过在安装黑苹果前先弄清楚黑苹果的工作原理，对我而言更加重要，所以我在动手操作前阅读了一些文章，其中对我帮助比较大的一篇文章叫[《黑苹果入门完全指南》](https://astrobear.top/2020/02/14/Introduction_to_hackintosh/)，这篇文章介绍了黑苹果的工作原理，并且介绍了clover引导中各种重要的操作。现在看来，虽然安装clover引导可能是个走弯路的行为，因为我想要引导界面加载图片，所以后来不得不换成了opencore引导，但是这篇文章很大程度上帮助我理解了黑苹果的工作原理，这让我在后续完善黑苹果遇到问题时，能够更加有方向地去尝试解决问题，而非两眼抓瞎不知所措。  
+<br>
 
+### 3.初次安装
+* EFI选择
+首先需要指出，github上就有多种机型EFI文件的仓库，其github地址为[daliansky/Hackintosh](https://github.com/daliansky/Hackintosh)，所以不必在网上花钱下载各种机型的EFI文件。同时我不得不对提供EFI文件和维护仓库的人表示感谢，正是因为他们的存在才让我这种小白安装黑苹果成为了可能。Y9000X有四个EFI文件可供选择，我初次安装时选择了[WangRicky/Y9000X-HACKINTOSH](https://github.com/WangRicky/Y9000X-HACKINTOSH)的EFI，因为该EFI可以解决外接显示器的问题。
 
 
 ### 安装历程
